@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { fetchTodos, updateTodo } from "@/lib/api"; // Adjust path if needed
 import TodoForm from "@/components/TodoForm";
 import TodoCard from "@/components/TodoCard";
-import "@/app/globals.css"; // Assuming styles are in globals.css or use your own path
+import "@/app/styles.css"; // Assuming styles are in globals.css or use your own path
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
