@@ -1,0 +1,28 @@
+/* app/ssr-todos/SSRPage.module.css */
+
+.wrapper {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.timestamp {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.todoList {
+  padding: 0;
+  list-style: none;
+}
+
+.todoItem {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
