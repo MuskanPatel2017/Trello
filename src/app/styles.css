@@ -88,6 +88,7 @@
  .button-add {
   background-color: #2196f3;
   color: white;
+  margin-bottom: 5px;
 } 
 
 /* Edit Button - Orange */
@@ -114,3 +115,9 @@
     padding: 15px;
   }
 } 
+
+.button-view-ssr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
