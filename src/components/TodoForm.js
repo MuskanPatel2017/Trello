@@ -1,6 +1,7 @@
 'use client'; // Required for client-side interactivity (e.g. useState)
 
 import React, { useState } from "react";
+import Link from 'next/link';
 
 const TodoForm = ({ onAddTodo }) => {
   const [title, setTitle] = useState("");
@@ -30,6 +31,7 @@ const TodoForm = ({ onAddTodo }) => {
         required
       />
       <button type="submit" className="button button-add">Add Todo</button>
+      <Link href="/ssr-todos" className="button button-view-ssr">View SSR Todos</Link>
     </form>
   );
 };
